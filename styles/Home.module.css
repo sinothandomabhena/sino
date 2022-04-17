@@ -78,6 +78,26 @@
   width: 55vw;
 }
 
+.cardabout {
+  margin: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  min-width: 300px;
+  width: 55vw;
+}
+
+.cardabout a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.cardabout a:hover,
+.cardabout a:focus,
+.cardabout a:active {
+  text-decoration: underline;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -99,12 +119,6 @@
 .card a:active {
   text-decoration: underline;
 }
-
-/* .card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-} */
 
 .logo {
   height: 1em;
