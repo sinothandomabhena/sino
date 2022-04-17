@@ -28,11 +28,12 @@ export default function Home() {
               <p className="text-sm mb-4 text-gray-500">Jan 2021 - Dec 2021</p>
               <p>
                 Developed and maintained frontend mobile responsive web
-                applications built in React. In addition to React, styled
-                components were used for styling and also made use of apollo to
-                interact with a GraphQL API.
+                applications built in React. In addition to React,
+                styled-components was used for styling and also made use of
+                apollo to interact with a GraphQL API. Also worked on a cross
+                platform mobile application built in React Native
               </p>
-              <p className="text-md mt-4 text-gray-500">Projects worked on</p>
+              <p className="text-md mt-4 text-gray-500">Worked on</p>
               <ul>
                 <li>
                   <a
@@ -42,7 +43,7 @@ export default function Home() {
                   >
                     wearecolab.com
                   </a>
-                  <span className="text-gray-400"> &rarr; React Developer</span>
+                  <span className="text-gray-400"> &rarr; React</span>
                 </li>
                 <li>
                   <a
@@ -67,7 +68,7 @@ export default function Home() {
                   </a>
                   <span className="text-gray-400">
                     {" "}
-                    &rarr; React Native Developer
+                    &rarr; React Native
                   </span>
                 </li>
               </ul>
@@ -87,7 +88,7 @@ export default function Home() {
               includes soft skills coaching, training and experience in Agile,
               which is done in collaboration with the DVT Academy.
             </p>
-            <p className="text-md mt-4 text-gray-500">Projects worked on</p>
+            <p className="text-md mt-4 text-gray-500">Worked on</p>
             <ul>
               <li>
                 <a
@@ -99,7 +100,7 @@ export default function Home() {
                 </a>
                 <span className="text-gray-400">
                   {" "}
-                  &rarr; Grad programme personal pet project (in progress)
+                  &rarr; Swift (in progress)
                 </span>
               </li>
               <li>
@@ -112,7 +113,7 @@ export default function Home() {
                 </a>
                 <span className="text-gray-400">
                   {" "}
-                  &rarr; Grad programme group project (in progress)
+                  &rarr; Swift (in progress)
                 </span>
               </li>
             </ul>
@@ -121,7 +122,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p className="text-gray-500">created by sino</p>
+        <p className="text-gray-400">created by sinothando mabhena</p>
       </footer>
     </div>
   );
