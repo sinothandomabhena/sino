@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -13,21 +13,38 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          hi, i&apos;m <a href="https://nextjs.org">sino</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <p className={styles.description}>i&apos;m a software engineer 🚀</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2 className="font-semibold">
+              Junior Software Developer @ Teamgeek
+            </h2>
+            <p className="text-sm mb-5 text-gray-500">Jan 2021 - Dec 2021</p>
+            <p>
+              Developed and maintained frontend mobile responsive web
+              applications built in React. In addition to React, styled
+              components were used for styling and also made use of apollo to
+              interact with a GraphQL API.
+            </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2 className="font-semibold">Graduate Software Engineer @ DVT</h2>
+            <p className="text-sm mb-5 text-gray-500">Feb 2022 - Present</p>
+            <p>
+              A twelve-month graduate programme that provides extensive
+              coaching. In addition to skills in software engineering
+              technology, the programme includes soft skills coaching, training
+              and experience in Agile, which is done in collaboration with the
+              DVT Academy.
+            </p>
+          </a>
+
+          {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
@@ -48,22 +65,13 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p className="text-gray-500">created by sino</p>
       </footer>
     </div>
-  )
+  );
 }
