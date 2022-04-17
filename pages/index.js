@@ -19,54 +19,63 @@ export default function Home() {
         <p className={styles.description}>i&apos;m a software engineer 🚀</p>
 
         <div className={styles.grid}>
-          <p href="https://nextjs.org/docs" className={styles.card}>
-            <h2 className="font-semibold">
-              Junior Software Developer @{" "}
-              <a href="https://teamgeek.io/">Teamgeek</a>
-            </h2>
-            <p className="text-sm mb-4 text-gray-500">Jan 2021 - Dec 2021</p>
-            <p>
-              Developed and maintained frontend mobile responsive web
-              applications built in React. In addition to React, styled
-              components were used for styling and also made use of apollo to
-              interact with a GraphQL API.
+          <div className="mt-10">
+            <h1 className="ml-5 text-2xl font-bold">/ experience</h1>
+            <p className={styles.card}>
+              <h2 className="font-semibold">
+                Junior Software Developer @{" "}
+                <a href="https://teamgeek.io/">Teamgeek</a>
+              </h2>
+              <p className="text-sm mb-4 text-gray-500">Jan 2021 - Dec 2021</p>
+              <p>
+                Developed and maintained frontend mobile responsive web
+                applications built in React. In addition to React, styled
+                components were used for styling and also made use of apollo to
+                interact with a GraphQL API.
+              </p>
+              <p className="text-md mt-4 text-gray-500">Projects worked on</p>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.wearecolab.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    wearecolab.com
+                  </a>
+                  <span className="text-gray-400"> &rarr; React Developer</span>
+                </li>
+                <li>
+                  <a
+                    href="https://www.yoco.com/za/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    yoco.com
+                  </a>
+                  <span className="text-gray-400">
+                    {" "}
+                    &rarr; Quality Assurance
+                  </span>
+                </li>
+                <li>
+                  <a
+                    href="https://www.bettr.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    bettr.app
+                  </a>
+                  <span className="text-gray-400">
+                    {" "}
+                    &rarr; React Native Developer
+                  </span>
+                </li>
+              </ul>
             </p>
-            <p className="text-md mt-4 text-gray-500">Projects worked on</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.wearecolab.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  wearecolab.com
-                </a>
-                <span className="text-gray-400"> &rarr; React Developer</span>
-              </li>
-              <li>
-                <a
-                  href="https://www.yoco.com/za/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  yoco.com
-                </a>
-                <span className="text-gray-400"> &rarr; Quality Assurance</span>
-              </li>
-              <li>
-                <a
-                  href="https://www.bettr.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  bettr.app
-                </a>
-                <span className="text-gray-400"> &rarr; React Native Developer</span>
-              </li>
-            </ul>
-          </p>
+          </div>
 
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <p className={styles.card}>
             <h2 className="font-semibold">
               Graduate Software Engineer @{" "}
               <a href="https://www.dvt.co.za/">DVT</a>
@@ -108,7 +117,7 @@ export default function Home() {
                 </span>
               </li>
             </ul>
-          </a>
+          </p>
 
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
