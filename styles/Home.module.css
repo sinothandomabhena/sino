@@ -75,19 +75,29 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   min-width: 300px;
-  width: 50vw;
+  width: 55vw;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  border-color: #b9b9b9;
 }
 
 .card h2 {
   margin: 0;
   font-size: 1.3rem;
+}
+
+.card a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.card a:hover,
+.card a:focus,
+.card a:active {
+  text-decoration: underline;
 }
 
 /* .card p {

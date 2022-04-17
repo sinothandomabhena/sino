@@ -19,29 +19,95 @@ export default function Home() {
         <p className={styles.description}>i&apos;m a software engineer 🚀</p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <p href="https://nextjs.org/docs" className={styles.card}>
             <h2 className="font-semibold">
-              Junior Software Developer @ Teamgeek
+              Junior Software Developer @{" "}
+              <a href="https://teamgeek.io/">Teamgeek</a>
             </h2>
-            <p className="text-sm mb-5 text-gray-500">Jan 2021 - Dec 2021</p>
+            <p className="text-sm mb-4 text-gray-500">Jan 2021 - Dec 2021</p>
             <p>
               Developed and maintained frontend mobile responsive web
               applications built in React. In addition to React, styled
               components were used for styling and also made use of apollo to
               interact with a GraphQL API.
             </p>
-          </a>
+            <p className="text-md mt-4 text-gray-500">Projects worked on</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.wearecolab.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  wearecolab.com
+                </a>
+                <span className="text-gray-400"> &rarr; React Developer</span>
+              </li>
+              <li>
+                <a
+                  href="https://www.yoco.com/za/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  yoco.com
+                </a>
+                <span className="text-gray-400"> &rarr; Quality Assurance</span>
+              </li>
+              <li>
+                <a
+                  href="https://www.bettr.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  bettr.app
+                </a>
+                <span className="text-gray-400"> &rarr; React Native Developer</span>
+              </li>
+            </ul>
+          </p>
 
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2 className="font-semibold">Graduate Software Engineer @ DVT</h2>
+            <h2 className="font-semibold">
+              Graduate Software Engineer @{" "}
+              <a href="https://www.dvt.co.za/">DVT</a>
+            </h2>
             <p className="text-sm mb-5 text-gray-500">Feb 2022 - Present</p>
             <p>
-              A twelve-month graduate programme that provides extensive
-              coaching. In addition to skills in software engineering
-              technology, the programme includes soft skills coaching, training
-              and experience in Agile, which is done in collaboration with the
-              DVT Academy.
+              Developing iOS mobile applications as part of a twelve-month
+              graduate programme that provides extensive coaching. In addition
+              to skills in software engineering technology, the programme
+              includes soft skills coaching, training and experience in Agile,
+              which is done in collaboration with the DVT Academy.
             </p>
+            <p className="text-md mt-4 text-gray-500">Projects worked on</p>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/smabhena/mooov"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github.com/smabhena/mooov
+                </a>
+                <span className="text-gray-400">
+                  {" "}
+                  &rarr; Grad programme personal pet project (in progress)
+                </span>
+              </li>
+              <li>
+                <a
+                  href="https://hennopsrevival.co.za/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Hennops Revival iOS app
+                </a>
+                <span className="text-gray-400">
+                  {" "}
+                  &rarr; Grad programme group project (in progress)
+                </span>
+              </li>
+            </ul>
           </a>
 
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
