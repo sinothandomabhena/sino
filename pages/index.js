@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
@@ -24,22 +23,31 @@ export default function Home() {
 
         <div className="flex flex-row justify-center mt-4">
           <div className="m-4 text-2xl cursor-pointer hover:text-blue-500 transition">
-            <Link href="mailto:sinothandomabhena@gmail.com" passHref>
+            <a
+              href="mailto:sinothandomabhena@gmail.com"
+              target="__blank"
+              rel="noreferrer"
+            >
               <HiMail />
-            </Link>
+            </a>
           </div>
           <div className="m-4 text-2xl cursor-pointer hover:text-blue-500 transition">
-            <Link
+            <a
               href="https://www.linkedin.com/in/sinothando-mabhena-2ab5301a9/"
-              passHref
+              target="__blank"
+              rel="noreferrer"
             >
               <BsLinkedin />
-            </Link>
+            </a>
           </div>
           <div className="m-4 text-2xl cursor-pointer hover:text-blue-500 transition">
-            <Link href="https://github.com/sinothandomabhena" passHref>
+            <a
+              href="https://github.com/sinothandomabhena"
+              target="__blank"
+              rel="noreferrer"
+            >
               <BsGithub />
-            </Link>
+            </a>
           </div>
         </div>
 
