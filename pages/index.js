@@ -1,5 +1,10 @@
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { HiMail } from "react-icons/hi";
+import {} from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -16,6 +21,27 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>i&apos;m a software engineer 🚀</p>
+
+        <div className="flex flex-row justify-center mt-4">
+          <div className="m-4 text-2xl cursor-pointer hover:text-blue-500 transition">
+            <Link href="mailto:sinothandomabhena@gmail.com" passHref>
+              <HiMail />
+            </Link>
+          </div>
+          <div className="m-4 text-2xl cursor-pointer hover:text-blue-500 transition">
+            <Link
+              href="https://www.linkedin.com/in/sinothando-mabhena-2ab5301a9/"
+              passHref
+            >
+              <BsLinkedin />
+            </Link>
+          </div>
+          <div className="m-4 text-2xl cursor-pointer hover:text-blue-500 transition">
+            <Link href="https://github.com/sinothandomabhena" passHref>
+              <BsGithub />
+            </Link>
+          </div>
+        </div>
 
         <div className={styles.grid}>
           <div className="mt-10">
