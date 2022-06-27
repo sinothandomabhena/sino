@@ -162,7 +162,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className={styles.card}>
+          {/* <div className={styles.card}>
             <h2 className="font-semibold">
               Final Year Project @{" "}
               <a href="https://upnet.up.ac.za//">University of Pretoria</a>
@@ -192,7 +192,7 @@ export default function Home() {
                 </span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </main>
 
