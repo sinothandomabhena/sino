@@ -162,7 +162,7 @@ export default function Home() {
             </p>
             <p className="text-md mt-4 text-gray-500">Working on:</p>
             <ul>
-              <li>
+              {/* <li>
                 <a
                   href="https://github.com/smabhena/mooov"
                   target="_blank"
@@ -174,7 +174,7 @@ export default function Home() {
                   {" "}
                   &rarr; Swift (in progress)
                 </span>
-              </li>
+              </li> */}
 
               <li>
                 <a
@@ -186,47 +186,15 @@ export default function Home() {
                 </a>
                 <span className="text-gray-400">
                   {" "}
-                  &rarr; Swift (in progress)
+                  &rarr; Swift &amp; SwiftUI (in progress)
                 </span>
                 <p className="text-gray-400 translate-x-16 w-8/12">
-                  Working as part of the Stash as a DVT consultant to develop ,
-                  test and maintain the Stash iOS app
+                  Working as part of the Stash team as a DVT consultant to
+                  develop , test and maintain the Stash iOS app
                 </p>
               </li>
             </ul>
           </div>
-
-          {/* <div className={styles.card}>
-            <h2 className="font-semibold">
-              Final Year Project @{" "}
-              <a href="https://upnet.up.ac.za//">University of Pretoria</a>
-            </h2>
-            <p className="text-md mb-5 text-gray-500">Mar 2022 - Present</p>
-            <p className="text-gray-700">
-              Leading the frontend of my teams final year project. CryptoHub is
-              an interactive and social application that allows a user to
-              explore the world of crypto. Each user has the ability to share
-              and explore investment recommendations, crypto stories as well as
-              have insight into crypto coins and the current global crypto news.
-            </p>
-            <p className="text-md mt-4 text-gray-500">Working on:</p>
-
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/COS301-SE-2022/CryptoHub"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github.com/COS301-SE-2022/CryptoHub
-                </a>
-                <span className="text-gray-400">
-                  {" "}
-                  &rarr; Next, React, Tailwind (in progress)
-                </span>
-              </li>
-            </ul>
-          </div> */}
         </div>
       </main>
 
