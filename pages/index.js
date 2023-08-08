@@ -63,9 +63,9 @@ export default function Home() {
                 >
                   Pretoria, South Africa
                 </a>
-                . I have profound interest in frontend development, UI design,
-                human-computer interaction, and everything in between. I studied
-                Bsc Information & Knowledge Systems at the{" "}
+                . I have experience developing native and cross platform mobile
+                applications and web applications. I have a BSc Information &
+                Knowledge Systems degree from the{" "}
                 <a
                   href="https://www.up.ac.za/"
                   target="_blank"
@@ -149,33 +149,28 @@ export default function Home() {
 
           <div className={styles.card}>
             <h2 className="font-semibold">
-              Graduate Software Engineer @{" "}
-              <a href="https://www.dvt.co.za/">DVT</a>
+              Graduate iOS Developer @ <a href="https://www.dvt.co.za/">DVT</a>
             </h2>
-            <p className="text-md mb-5 text-gray-500">Feb 2022 - Present</p>
+            <p className="text-md mb-5 text-gray-500">Feb 2022 - Jan 2023</p>
             <p className="text-gray-700">
-              Developing iOS mobile applications as part of a twelve-month
-              graduate programme that provides extensive coaching. In addition
-              to skills in software engineering technology, the programme
-              includes soft skills coaching, training and experience in Agile,
-              which is done in collaboration with the DVT Academy.
+              Developing iOS mobile applications as part of a six-month graduate
+              programme that provides extensive coaching. In addition to skills
+              in software engineering technology, the programme includes soft
+              skills coaching, training and experience in Agile, which is done
+              in collaboration with the DVT Academy. In the latter half of the
+              programme, I was placed at Stash as a graduate iOS Developer
             </p>
-            <p className="text-md mt-4 text-gray-500">Working on:</p>
+            <p className="text-md mt-4 text-gray-500">Worked on:</p>
             <ul>
-              {/* <li>
-                <a
-                  href="https://github.com/smabhena/mooov"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github.com/smabhena/mooov
+              <li>
+                <a href="#" rel="noreferrer">
+                  Internal Projects
                 </a>
                 <span className="text-gray-400">
                   {" "}
-                  &rarr; Swift (in progress)
+                  &rarr; Swift &amp; SwiftUI
                 </span>
-              </li> */}
-
+              </li>
               <li>
                 <a
                   href="https://www.liberty.co.za/stash"
@@ -186,12 +181,37 @@ export default function Home() {
                 </a>
                 <span className="text-gray-400">
                   {" "}
-                  &rarr; Swift &amp; SwiftUI (in progress)
+                  &rarr; Swift &amp; SwiftUI
                 </span>
-                <p className="text-gray-400 translate-x-16 w-8/12">
-                  Working as part of the Stash team as a DVT consultant to
-                  develop , test and maintain the Stash iOS app
-                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.card}>
+            <h2 className="font-semibold">
+              Junior iOS Developer @ <a href="https://www.dvt.co.za/">DVT</a>
+            </h2>
+            <p className="text-md mb-5 text-gray-500">Feb 2023 - Present</p>
+            <p className="text-gray-700">
+              Developing, maintaining and testing features on the Stash mobile
+              iOS application. Features are developed using UIKit as and
+              SwiftUI. Have experience with CI/CD, Testflight and app
+              distrubution to the App Store
+            </p>
+            <p className="text-md mt-4 text-gray-500">Working on:</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.liberty.co.za/stash"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Stash
+                </a>
+                <span className="text-gray-400">
+                  {" "}
+                  &rarr; Swift &amp; SwiftUI
+                </span>
               </li>
             </ul>
           </div>
